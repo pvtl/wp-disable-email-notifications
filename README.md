@@ -1,0 +1,1 @@
+# wp-disable-email-notifications
