@@ -1,0 +1,17 @@
+{
+  "name": "pvtl/wp-disable-email-notifications",
+  "description": "Disable Admin Email Notifications when a user changes their password & Fatal Error Emails.",
+  "homepage": "https://github.com/pvtl/wp-disable-email-notifications",
+  "license": "GPL3",
+  "authors": [
+    {
+      "name": "Erin Welch",
+      "email": "erin.w@pvtl.io",
+      "homepage": "https://www.pivotalagency.com.au/"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.4"
+  }
+}
