@@ -9,7 +9,7 @@
  * Text Domain: pvtl-wp-disable-email-notifications
  */
 if ( 'staging' === wp_get_environment_type() ) { 
-    define( 'WP_DISABLE_FATAL_ERROR_HANDLER',true );
+    define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true );
 }
 
 if ( !function_exists( 'wp_password_change_notification' ) ) {
@@ -19,4 +19,3 @@ if ( !function_exists( 'wp_password_change_notification' ) ) {
 add_filter('send_password_change_email','__return_false');
 add_filter( 'woocommerce_disable_password_change_notification', '__return_true' );
 remove_action( 'after_password_reset', 'wp_password_change_notification' );
- ?>
